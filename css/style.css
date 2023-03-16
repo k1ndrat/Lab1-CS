@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800);
+
+*,
+*::after,
+*::before {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-size: 25px;
+   font-family: "Sono";
+   font-weight: 400;
+}
+
+.main {
+   height: 100vh;
+   width: 100vw;
+   background-color: #6b48ff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.main__container {
+   background-color: #f2f4f6;
+   border-radius: 30px;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   max-width: 1400px;
+   transition: all 0.3s ease 0s;
+   box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.4);
+}
+
+::-webkit-file-upload-button {
+   background-color: #1ee3cf;
+   color: #0d3f67;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 10px;
+   font-family: inherit;
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+}
+
+::-webkit-file-upload-button:hover {
+   background-color: #26c7b7;
+}
+
+.input-file {
+   width: 100%;
+   cursor: pointer;
+   border-radius: 10px;
+   color: #f2f4f6;
+   background-color: #158a7e;
+   /* border: 1px solid #6b48ff; */
+   /* display: none; */
+}
+
+.file-title {
+   margin-bottom: 10px;
+}
+
+.file {
+   display: flex;
+   flex-direction: column;
+}
+
+.main-input {
+   width: 100%;
+   border-radius: 10px;
+   padding: 10px;
+   border: 2px solid #158a7e;
+}
+
+.BASE64-checkbox {
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: row-reverse;
+   gap: 20px;
+   user-select: none;
+}
+.output-title {
+   /* font-weight: 700; */
+   margin-bottom: 10px;
+}
+.output-1,
+.output-2,
+.output-3,
+.output-4,
+.output-5,
+.output-6,
+.output-7 {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}

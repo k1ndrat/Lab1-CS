@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>ivo</title>
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <main class="main">
+         <div class="main__container">
+            <div class="file">
+               <label class="file-title" for="">Select a file:</label>
+               <input
+                  class="input-file"
+                  type="file"
+                  id="myfile"
+                  name="myfile"
+               />
+            </div>
+            <div class="BASE64-checkbox">
+               <label for="createBASE64">Create BASE64-file</label>
+               <input type="checkbox" name="createBASE64" id="createBASE64" />
+            </div>
+            <div class="input-letter">
+               <input
+                  class="main-input"
+                  placeholder="Please input letter"
+                  type="text"
+                  maxlength="1"
+               />
+            </div>
+            <div class="output">
+               <h2 class="output-title">Output:</h2>
+               <!-- <div class="output-1">
+                  <div class="name"></div>
+                  <div class="value"></div>
+               </div> -->
+               <div class="output-2">
+                  <div class="name">Entropy:</div>
+                  <div class="value"></div>
+               </div>
+               <div class="output-3">
+                  <div class="name">Info quantity bytes:</div>
+                  <div class="value"></div>
+               </div>
+               <div class="output-4">
+                  <div class="name">Size(bytes):</div>
+                  <div class="value"></div>
+               </div>
+               <div class="output-5">
+                  <div class="name">Size(bits):</div>
+                  <div class="value"></div>
+               </div>
+               <div class="output-6">
+                  <div class="name">Length:</div>
+                  <div class="value"></div>
+               </div>
+               <div class="output-7">
+                  <div class="name"></div>
+                  <div class="value"></div>
+               </div>
+            </div>
+         </div>
+      </main>
+   </body>
+   <!-- <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script> -->
+
+   <script src="js/script.js"></script>
+</html>
