@@ -113,8 +113,7 @@ function encodeToBase64(bytes) {
    const alphabet =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
    let output = "";
-   let b = 0; // variable to store the 6-bit data blocks
-
+   let b;
    for (let i = 0; i < bytes.length; i += 3) {
       // Multiply by 252, then shift by 2 bits to get the first 6-bit byte
       b = (bytes[i] & 0xfc) >> 2;
